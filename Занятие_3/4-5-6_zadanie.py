@@ -1,4 +1,13 @@
+"""
+4.XOR шифрование, на входе сообщение (строка) и ключ шифрования (строка), 
+на выходе зашифрованное сообщение (строка). XOR расшифровывание, 
+на входе зашифрованное сообщение (строка) и ключ (строка), на выходе исходное сообщение (строка).
+5.Частота использования цифр в диапазоне чисел.
+6.Частота использования символов в тексте.
+"""
+
 import random
+
 def xor_encryption():
 
     while True:
@@ -48,6 +57,7 @@ def xor_encryption():
             print("Unknown error.")
             continue
 
+            
 def frequency_of_using_digits():
     while True:
         try:
@@ -73,6 +83,7 @@ def frequency_of_using_digits():
     for i in range(len(freq_tuple)):
         print(f'{i}:{freq_tuple[i]}')
 
+        
 def freq_of_using_symbols_in_the_text():
     while True:
         a = input("Specify the location of a file. The text will be taken from there \nPress \"Enter\" for continue without file: ")
