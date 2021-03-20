@@ -1,3 +1,7 @@
+"""
+Решение квадратного уравнения с использованием комплексных чисел
+"""
+
 print("Enter coefficients for the equation")
 print("ax^2 + bx + c = 0:")
 
