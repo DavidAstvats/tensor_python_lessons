@@ -1,3 +1,9 @@
+"""
+1.Определить, является ли введенное число простым.
+2.Нахождение наибольшего общего делителя.
+3.Нахождение наименьшего общего кратного.
+"""
+
 def prime_number():
     while True:
         try:
@@ -17,6 +23,7 @@ def prime_number():
     else:  
         print(number, "is not a prime number")
 
+        
 def greatest_common_factor():
     while True:
         try:
@@ -39,6 +46,7 @@ def greatest_common_factor():
         a, b = b, a % b
     print("GCD is", a)
 
+    
 def least_common_multiple():
     while True:
         try:
