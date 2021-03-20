@@ -2,6 +2,7 @@
 Написать программу подсчета частоты вхождений 
 символов в текст с использованием lambda.
 '''
+
 from collections import Counter
 
 count = lambda symbol: Counter(symbol)
